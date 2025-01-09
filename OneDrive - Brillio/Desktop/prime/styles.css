@@ -1,0 +1,39 @@
+.result_table {
+    width: 90%;
+}
+
+.result_table th {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+.running {
+    background: coral;
+}
+
+.done {
+    background-color: limegreen;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4caf50; /* Green color for progress */
+    transition: width 0.1s ease;
+}
+
+.progress-text {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+}
